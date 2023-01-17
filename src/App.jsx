@@ -1,11 +1,11 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import "../src/Styles/App.css";
 import Layout from "../src/Layout/Layout";
 import routes from "../src/Navigation/routes";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Layout>
         <Routes>
           {routes.map((route) => {
@@ -13,7 +13,7 @@ function App() {
           })}
         </Routes>
       </Layout>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

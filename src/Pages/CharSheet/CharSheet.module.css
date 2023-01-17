@@ -50,7 +50,7 @@
   color: black;
   box-sizing: border-box;
   border: 1px solid black;
-  background-image: url(/src/assets/bgimg.jpg);
+  background-image: url(../../assets/bgimg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
